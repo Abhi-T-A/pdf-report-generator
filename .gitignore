@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+.venv/
+
+# Environment secrets
+.env
+
+# Generated artifacts
+storage/
+*.pdf
+.report_id
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
+
+# Celery Beat schedule file
+celerybeat-schedule
+celerybeat.pid
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.log

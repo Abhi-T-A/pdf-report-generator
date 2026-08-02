@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Version control
+.git/
+.gitignore
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment files (never bake secrets into the image)
+.env
+
+# Generated PDFs and storage output
+storage/
+*.pdf
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker itself
+.dockerignore
+docker-compose.yml
+docker-compose.override.yml
